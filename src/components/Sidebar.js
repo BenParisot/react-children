@@ -1,14 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Styles from './main.css';
 
-export default Sidebar({ children }) {
-    return (
-        <nav>
-            {children}
-        </nav>
-    );
+export default function Sidebar({ children }) {
+  return (
+    <nav className={Styles.sidebar}>
+      {children}
+    </nav>
+  );
 }
 
 Sidebar.propTypes = {
-    children: PropTypes.node
-}
+  children: PropTypes.node
+};
