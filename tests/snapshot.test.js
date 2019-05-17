@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Sidebar from '../src/components/Sidebar';
+import Good from '../src/components/Good';
 
-describe('Sidebar component', () => {
-  it('creates a sidebar', () => {
-    const wrapper = shallow(<Sidebar />);
+describe('Good component', () => {
+  it('returns Good message', () => {
+    const wrapper = shallow(<Good />);
     expect(wrapper).toMatchSnapshot();
   });
 });

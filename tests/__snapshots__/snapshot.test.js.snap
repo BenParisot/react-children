@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Sidebar component creates a sidebar 1`] = `
-<nav
-  className="sidebar"
-/>
+exports[`Good component returns Good message 1`] = `
+<h1>
+  This is even better! No errors
+</h1>
 `;
